@@ -1,0 +1,223 @@
+/* Setting margin padding and box-sizing */
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    list-style:none; /* this tag will remove list style*/
+}
+/* for nav bar*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1.5);
+    position: static;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px; /* Adding some padding*/
+    transition: all .5s ease; /* Adding  transition for hover effects */
+}
+.navbar ul li a:hover{
+    background-color: white;   /* Adding  hover for  background-color */
+    color: black;   /* Adding  hover for color */
+    box-shadow: 0 0  10px white;   /* Adding  hover box-shadow*/
+}
+/* For home page*/
+#homepage{
+    display: flex;   /* displaying flex*/
+    flex-direction: column;
+    background-color: rgb(0, 0, 0,0.5); /*Adding background-color*/
+    height: 516px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+
+#homepage::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('project1.jpg') no-repeat center center/cover;  /* inserting background-image*/
+    height: 578px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+
+
+}
+
+.main{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+
+    
+}
+
+.heading{
+    font-family: auto;
+    font-size: 53px;
+    text-align: -webkit-center; /* Center-align text */
+    margin: 40px 0px;
+    color: wheat;
+}
+
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6 ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+
+h1.text {
+    color: wheat;
+    background: #403d3d;
+    border: 2px solid black;
+    border-radius: 21px;
+}
+
+.contact{
+    display: flex;
+    background: aliceblue;
+}
+form{
+    margin: 0px 157px;
+}
+}
+
+
+form.contact1 {
+    height: 546px;
+    padding: 30px;
+    margin: 3px 137px;
+    width: 36%;
+}
+    p.text2 {
+        font-size: 20px;
+        color: blue;
+        
+        line-height: 2;
+    }
+
+    input#just {
+        font-size: 21px;
+       
+        border-radius: 12px;
+        border: 2px solid white;
+    }
+    input[type="submit"] {
+        font-size: 23px;
+      
+        border: 1px solid white;  /* Adding border*/
+        background: black;
+        color: white;
+        border-radius: 5px;
+        width: 97px;
+        cursor: pointer;  /* making cursonr pointer*/
+    }
+
+    form.submit :hover{
+        background-color: white;
+    }
+
+    h1 {
+        text-align: center;  /* Center-align text */
+        font-size: 35px;   /*increading font-size*/
+        color: blueviolet;
+        font-family: serif;
+    }
+    .info {
+        font-size: 25px;    /*increading font-size*/
+        font-weight: bolder;
+        color: white;
+        padding: 6px 20px;
+
+    }
+
+    .img{
+        height: 73px;
+    }
+
+.img1 {
+        height: 81px;
+        border: 1px;
+        border-radius: 43px;
+    }
+
+    .myinfo{
+        background-color: chocolate;
+        height: 104vh;
+
+       
+    }
+
+    p.head {
+        font-size: 25px;   /* increasing font-size*/
+        font-family: serif;
+        font-weight: bold;
+        text-align: center;
+    }
+    .introduction{
+        background: fixed burlywood;
+    }
+
+    .image1 {
+        width: 60vh;
+        padding: 11px 0px;
+        margin: 14px;
+        border-radius: 27px;
+    }
+
+    p.introduction-part {
+        font-size: 19px;
+        font-weight: 500;
+        padding: 10px;
+        height: 120px;
+        width: 798px;
+    }
+
+    .health {
+        BACKGROUND: goldenrod fixed;
+    }
+    .education{
+        background: fixed wheat;
+    }
+
+    .indusrty{
+        background: fixed whitesmoke;
+    }
+
+
